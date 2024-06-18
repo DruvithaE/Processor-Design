@@ -1,0 +1,11 @@
+irmovq $4, %rax
+irmovq $5, %rbx
+subq %rax, %rbx
+jle L2
+irmovq $1, %r8
+jmp end
+L2: irmovq $2, %r8
+end:
+
+
+

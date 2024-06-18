@@ -1,0 +1,164 @@
+$date
+	Sun Feb 18 15:30:05 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fetch_tb $end
+$var wire 64 ! valP [63:0] $end
+$var wire 64 " valC [63:0] $end
+$var wire 4 # rB [3:0] $end
+$var wire 4 $ rA [3:0] $end
+$var wire 1 % instr_valid $end
+$var wire 1 & imem_error $end
+$var wire 4 ' ifun [3:0] $end
+$var wire 4 ( icode [3:0] $end
+$var reg 64 ) PC [63:0] $end
+$var reg 1 * clk $end
+$var reg 80 + instruction [0:79] $end
+$var reg 1 , p $end
+$scope module fetch1 $end
+$var wire 64 - PC [63:0] $end
+$var wire 1 * clk $end
+$var wire 80 . instruction [0:79] $end
+$var reg 4 / icode [3:0] $end
+$var reg 4 0 ifun [3:0] $end
+$var reg 1 & imem_error $end
+$var reg 1 % instr_valid $end
+$var reg 4 1 rA [3:0] $end
+$var reg 4 2 rB [3:0] $end
+$var reg 64 3 valC [63:0] $end
+$var reg 64 4 valP [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+b1100001001000110010000000110100001101000101001100010000001001010010010101010011 .
+b0 -
+x,
+b1100001001000110010000000110100001101000101001100010000001001010010010101010011 +
+0*
+b0 )
+bx (
+bx '
+x&
+x%
+bx $
+bx #
+bx "
+bx !
+$end
+#15
+b100000001101000011010001010011000100000010010100100101010100110101010000010000 +
+b100000001101000011010001010011000100000010010100100101010100110101010000010000 .
+b10 )
+b10 -
+0,
+0&
+b10 !
+b10 4
+b11 #
+b11 2
+b10 $
+b10 1
+b1 '
+b1 0
+b110 (
+b110 /
+1*
+#30
+0*
+#45
+b110100010100110001000000100101001001010101001101010100000100000011010000100101 +
+b110100010100110001000000100101001001010101001101010100000100000011010000100101 .
+b100 )
+b100 -
+b100 !
+b100 4
+b11 $
+b11 1
+b100 #
+b100 2
+b0 '
+b0 0
+b10 (
+b10 /
+1*
+#60
+0*
+#75
+b10110011010101000001000000110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxx +
+b10110011010101000001000000110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxx .
+b1110 )
+b1110 -
+b1110 !
+b1110 4
+b10010100110100000100000101010001010011001001010010010100010000 "
+b10010100110100000100000101010001010011001001010010010100010000 3
+b11 #
+b11 2
+b101 $
+b101 1
+b100 '
+b100 0
+b11 (
+b11 /
+1*
+#90
+0*
+#105
+b1000000110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx +
+b1000000110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10000 )
+b10000 -
+b10000 !
+b10000 4
+b100 #
+b100 2
+b11 '
+b11 0
+b1011 (
+b1011 /
+1*
+#120
+0*
+#135
+b110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx +
+b110100001001010101001101010100xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10001 )
+b10001 -
+b10001 !
+b10001 4
+b0 '
+b0 0
+b1 (
+b1 /
+1*
+#150
+0*
+#165
+b11011 )
+b11011 -
+b11011 !
+b11011 4
+bx0101010001010011 "
+bx0101010001010011 3
+b101 #
+b101 2
+b10 $
+b10 1
+b100 '
+b100 0
+b11 (
+b11 /
+1*

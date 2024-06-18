@@ -1,0 +1,8 @@
+call L2
+irmovq $64, %rcx
+irmovq $64, %rax
+halt
+L2: irmovq $256, %rcx
+irmovq $256, %rax
+ret
+
